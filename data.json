@@ -1,0 +1,89 @@
+{
+    "judul": "Dashboard Bahan Ajar Pelatihan",
+    "pelatihan": {
+        "jadwal": [
+            "_ Agustus 2025: Lorem ipsum dolor sit amet",
+            "_ Agustus 2025: consectetur adipisicing elit",
+            "_ Agustus 2025: Impedit suscipit ad architecto",
+            "_ Agustus 2025: aspernatur dolorum exercitationem",
+            "_ Agustus 2025: saepe inventore porro cumque",
+            "_ Agustus 2025: eius ducimus voluptate",
+            "_ Agustus 2025: perspiciatis molestiae sint",
+            "_ Agustus 2025: soluta hic repellendus odio alias!"
+        ],
+        "reguler": [
+            {
+                "nama": "Bagaimana Memulai Ekspor",
+                "tautan": [
+                    {
+                        "judul": "Kurikulum dan Silabus",
+                        "url": ""
+                    },
+                    {
+                        "judul": "Bahan Tayang",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "nama": "Prosedur Ekspor",
+                "tautan": [
+                    {
+                        "judul": "Kurikulum dan Silabus",
+                        "url": ""
+                    },
+                    {
+                        "judul": "Bahan Tayang",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "nama": "Manajemen Ekspor Impor Plus Simulasi",
+                "tautan": [
+                    {
+                        "judul": "Kurikulum dan Silabus",
+                        "url": ""
+                    },
+                    {
+                        "judul": "Bahan Tayang",
+                        "url": ""
+                    }
+                ]
+            }
+        ],
+        "kontraktual": [
+        ]
+    },
+    "peraturan": [
+        {
+            "judul": "Peraturan UU XX 20XX",
+            "url": "https://jdih.kemendag.go.id/uuxx20xx"
+        },
+        {
+            "judul": "Peraturan 3",
+            "url": ""
+        },
+        {
+            "judul": "Peraturan 4",
+            "url": ""
+        },
+        {
+            "judul": "Peraturan 5",
+            "url": ""
+        }
+    ],
+    "perubahan": [
+        "24 Agustus 2025: Penyelesaian sementara pengembangan Dashboard",
+        "23 Agustus 2025: Pembuatan Dashboard Bahan Ajar Pelatihan",
+        "_ Agustus 2025: Penyelesaian sementara pengembangan Dashboard.",
+        "_ Agustus 2025: Lorem ipsum dolor sit amet",
+        "_ Agustus 2025: consectetur adipisicing elit",
+        "_ Agustus 2025: Impedit suscipit ad architecto",
+        "_ Agustus 2025: aspernatur dolorum exercitationem",
+        "_ Agustus 2025: saepe inventore porro cumque",
+        "_ Agustus 2025: eius ducimus voluptate",
+        "_ Agustus 2025: perspiciatis molestiae sint",
+        "_ Agustus 2025: soluta hic repellendus odio alias!"
+    ]
+}

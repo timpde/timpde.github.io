@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Bahan Ajar Pelatihan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@tailwindcss/forms"></script>
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen flex flex-col text-sm">
+
+    <!-- Header -->
+    <header class="bg-blue-600 text-white p-4 shadow px-20">
+        <h1 class="text-xl font-semibold">Dashboard Bahan Ajar Pelatihan</h1>
+    </header>
+
+    <!-- Main Layout -->
+    <div class="flex flex-1">
+        <!-- Main Content -->
+        <main class="flex-1 p-6 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 pr-3 ml-12 h-min">
+
+            <!-- Calendar -->
+            <div class="bg-white rounded-2xl shadow p-4 h-min">
+                <h2 class="text-base font-semibold mb-2">Kalender</h2>
+                <hr class="mb-4">
+                <div id="calendar" class="h-80 overflow-y-auto"></div>
+            </div>
+
+            <!-- Scrollable List -->
+            <div class="bg-white rounded-2xl shadow p-4 h-min">
+                <h2 class="text-base font-semibold mb-2">Jadwal Pelatihan Reguler & Kontraktual</h2>
+                <hr class="mb-4">
+                <ul class="space-y-2 max-h-80 overflow-y-auto" id="jadwal">
+                </ul>
+            </div>
+
+            <!-- Sliding Info Panel 1 -->
+            <div class="bg-white rounded-2xl shadow h-min">
+                <!-- Header row -->
+                <div class="flex justify-between items-center p-4 border-b">
+                    <h2 class="text-base font-semibold">Pelatihan Reguler</h2>
+                    <!-- <button onclick="togglePanel('panel1')" class="bg-blue-500 text-white px-3 py-1 rounded">
+
+                    </button> -->
+                    <button onclick="togglePanel('panel1');this.querySelector('svg').classList.toggle('rotate-180')"
+                        type="button" class="inline-flex items-center gap-2 px-3 py-2 shadow-sm hover:bg-gray-50">
+                        <!-- Chevron Down Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                            class="h-4 w-4 transition-transform">
+                            <path fill-rule="evenodd"
+                                d="M5.23 7.21a.75.75 0 0 1 1.06.02L10 10.208l3.71-2.98a.75.75 0 1 1 .94 1.16l-4.18 3.36a.75.75 0 0 1-.94 0l-4.18-3.36a.75.75 0 0 1 .02-1.06z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Collapsible content -->
+                <div id="panel1" class="max-h-0 overflow-hidden transition-all duration-500">
+                    <div class="p-4" id="reguler">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Sliding Info Panel 2 -->
+            <div class="bg-white rounded-2xl shadow h-min">
+                <!-- Header row -->
+                <div class="flex justify-between items-center p-4 border-b">
+                    <h2 class="text-base font-semibold">Pelatihan Kontraktual</h2>
+                    <!-- <button onclick="togglePanel('panel1')" class="bg-blue-500 text-white px-3 py-1 rounded">
+
+                    </button> -->
+                    <button onclick="togglePanel('panel2');this.querySelector('svg').classList.toggle('rotate-180')"
+                        type="button" class="inline-flex items-center gap-2 px-3 py-2 shadow-sm hover:bg-gray-50">
+                        <!-- Chevron Down Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                            class="h-4 w-4 transition-transform">
+                            <path fill-rule="evenodd"
+                                d="M5.23 7.21a.75.75 0 0 1 1.06.02L10 10.208l3.71-2.98a.75.75 0 1 1 .94 1.16l-4.18 3.36a.75.75 0 0 1-.94 0l-4.18-3.36a.75.75 0 0 1 .02-1.06z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Collapsible content -->
+                <div id="panel2" class="max-h-0 overflow-hidden transition-all duration-500">
+                    <div class="p-4" id="kontraktual">
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="w-64 p-6 flex flex-col gap-6 mr-12 pl-3">
+            <div class="bg-white rounded-2xl shadow p-4">
+                <div>
+                    <h2 class="font-semibold text-base mb-4">Peraturan Perundang-undangan terkait Ekspor</h2>
+                    <div class="overflow-y-auto max-h-80" id="peraturan">
+                        
+                    </div>
+                </div>
+                <hr class="my-2">
+                <div>
+                    <h2 class="font-semibold text-base mb-4">Perubahan Terbaru</h2>
+                    <div class="overflow-y-auto max-h-80" id="perubahan">
+                        
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-6 grid grid-cols-1 md:grid-cols-2 gap-4 px-20">
+        <div>
+            <!-- Kolom 1 -->
+            <p>Footer Kolom 1 (isi nanti)</p>
+        </div>
+        <div>
+            <!-- Kolom 2 -->
+            <p>Footer Kolom 2 (isi nanti)</p>
+        </div>
+    </footer>
+
+    <script>
+        // load when DOM is ready
+        document.addEventListener('DOMContentLoaded', function () {
+            // load file data.json
+            fetch('data.json')
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    // jadwal
+                    const jadwalUl = document.getElementById('jadwal');
+                    data.pelatihan.jadwal.forEach(item => {
+                        const li = document.createElement('li');
+                        li.className = "p-2 px-4 mr-2 bg-gray-100 rounded";
+                        li.textContent = item;
+                        jadwalUl.appendChild(li);
+                    });
+
+                    // reguler
+                    const regulerDiv = document.getElementById('reguler');
+                    // if empty, show "Belum tersedia."
+                    if (data.pelatihan.reguler.length === 0) {
+                        regulerDiv.innerHTML = '<p>Belum tersedia.</p>';
+                    }
+                    data.pelatihan.reguler.forEach(item => {
+                        const h3 = document.createElement('h3');
+                        h3.className = "font-bold mb-2";
+                        h3.textContent = item.nama;
+                        regulerDiv.appendChild(h3);
+
+                        item.tautan.forEach(linkItem => {
+                            const p = document.createElement('p');
+                            const a = document.createElement('a');
+                            a.href = linkItem.url;
+                            a.className = "text-blue-600 underline";
+                            a.textContent = linkItem.judul;
+                            p.appendChild(a);
+                            regulerDiv.appendChild(p);
+                        });
+
+                        const hr = document.createElement('hr');
+                        hr.className = "my-2";
+                        regulerDiv.appendChild(hr);
+                    });
+
+                    // kontraktual
+                    const kontraktualDiv = document.getElementById('kontraktual');
+                    // if empty, show "Belum tersedia."
+                    if (data.pelatihan.kontraktual.length === 0) {
+                        kontraktualDiv.innerHTML = '<p>Belum tersedia.</p>';
+                    }
+                    data.pelatihan.kontraktual.forEach(item => {
+                        const h3 = document.createElement('h3');
+                        h3.className = "font-bold mb-2";
+                        h3.textContent = item.nama;
+                        kontraktualDiv.appendChild(h3);
+
+                        item.tautan.forEach(linkItem => {
+                            const p = document.createElement('p');
+                            const a = document.createElement('a');
+                            a.href = linkItem.url;
+                            a.className = "text-blue-600 underline";
+                            a.textContent = linkItem.judul;
+                            p.appendChild(a);
+                            kontraktualDiv.appendChild(p);
+                        });
+
+                        const hr = document.createElement('hr');
+                        hr.className = "my-2";
+                        kontraktualDiv.appendChild(hr);
+                    });
+
+                    // peraturan
+                    const peraturanDiv = document.getElementById('peraturan');
+                    data.peraturan.forEach(item => {
+                        const p = document.createElement('p');
+                        p.className = "mb-4";
+                        const a = document.createElement('a');
+                        a.href = item.link;
+                        a.className = "text-blue-600 underline";
+                        a.textContent = item.judul;
+                        p.appendChild(a);
+                        peraturanDiv.appendChild(p);
+                    });
+
+                    // perubahan
+                    const perubahanDiv = document.getElementById('perubahan');
+                    data.perubahan.forEach(item => {
+                        const p = document.createElement('p');
+                        p.className = "mb-4 mr-2";
+                        p.textContent = item;
+                        perubahanDiv.appendChild(p);
+                    });
+                    // process data if needed
+                })
+                .catch(error => console.error('Error loading JSON:', error));
+        });
+        
+        document.addEventListener('DOMContentLoaded', function () {
+            const calendarEl = document.getElementById('calendar');
+            const calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth',
+                height: 'auto'
+            });
+            calendar.render();
+        });
+
+        function togglePanel(id) {
+            const panel = document.getElementById(id);
+
+            if (panel.style.maxHeight && panel.style.maxHeight !== "0px") {
+                // collapse
+                panel.style.maxHeight = "0px";
+            } else {
+                // expand (fit scrollHeight of inner content)
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        }
+    </script>
+</body>
+
+</html>
