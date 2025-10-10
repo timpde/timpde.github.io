@@ -2,14 +2,12 @@
     "judul": "Dashboard Bahan Ajar Pelatihan",
     "pelatihan": {
         "jadwal": [
-            "_ Agustus 2025: Lorem ipsum dolor sit amet",
-            "_ Agustus 2025: consectetur adipisicing elit",
-            "_ Agustus 2025: Impedit suscipit ad architecto",
-            "_ Agustus 2025: aspernatur dolorum exercitationem",
-            "_ Agustus 2025: saepe inventore porro cumque",
-            "_ Agustus 2025: eius ducimus voluptate",
-            "_ Agustus 2025: perspiciatis molestiae sint",
-            "_ Agustus 2025: soluta hic repellendus odio alias!"
+            "29 Sep - 1 Okt: Pertamina - Teknik Promosi Produk Ekspor (Kontraktual Pusat)",
+            "14 - 16 Okt: Indonesia Eximbank (LPEI) - Pengenalan Dasar Perdagangan Internasional (Kontraktual Pusat)",
+            "21 - 23 Okt: BME (Reguler Pusat)",
+            "28 - 30 Okt: PE (Reguler Pusat)",
+            " 4 - 12 Nov: MEI Plus Simulasi (Reguler Pusat)",
+            "11 - 13 Nov: Indonesia Eximbank (LPEI) - Pengenalan Dasar Perdagangan Internasional (Kontraktual Pusat)"
         ],
         "reguler": [
             {
@@ -17,11 +15,63 @@
                 "tautan": [
                     {
                         "judul": "Kurikulum dan Silabus",
-                        "url": ""
+                        "url": "https://drive.google.com/file/d/12o6hSCo9x8y_mXS_PN7jCNAVgHzPUjSJ/view?usp=sharing"
                     },
                     {
-                        "judul": "Bahan Tayang",
-                        "url": "https://www.kemendag.go.id"
+                        "judul": "Bahan Tayang Standar",
+                        "url": "",
+                        "sub": [
+                            {
+                                "judul": "1. Mengenal Bisnis Ekspor",
+                                "url": "https://drive.google.com/drive/folders/1FrJhEiJCfrPmZmuEavI2X8nplzT3qpCm?usp=sharing"
+                            },
+                            {
+                                "judul": "2. Identifikasi Potensi Internal",
+                                "url": "https://drive.google.com/drive/folders/1d3Z_MNg5Bu624jSJJLu1nLxhAopqgzcy?usp=sharing"
+                            },
+                            {
+                                "judul": "3. Identifikasi Pasar Ekspor",
+                                "url": "https://drive.google.com/drive/folders/19823_PTAjGWyw3LJlCd6f6Gcjz7mIL8y?usp=sharing"
+                            },
+                            {
+                                "judul": "4. Pengembangan Adaptasi Produk dan Kemasan Ekspor",
+                                "url": "https://drive.google.com/drive/folders/1sO-Ujx_XcoAAJAKeumssIgCFpR-7XgTQ?usp=sharing"
+                            },
+                            {
+                                "judul": "5. Biaya dan Harga Ekspor",
+                                "url": "https://drive.google.com/drive/folders/1OMrpdkIwVchnkgjjNtTiEoLY0TGn_we0?usp=sharing"
+                            },
+                            {
+                                "judul": "6. Mencari Pembeli",
+                                "url": "https://drive.google.com/drive/folders/17i0N9F-xqNN7Sq07MOOgLjPsI8vQjJIq?usp=sharing"
+                            },
+                            {
+                                "judul": "7. Pengalaman Ekspor",
+                                "url": "https://drive.google.com/drive/folders/1YNXZt4pxnh-fwxYfzuk9ySiZ8zsh0bAH?usp=sharing"
+                            }
+                        ]
+                    },
+                    {
+                        "judul": "Laporan Evaluasi",
+                        "url": "htttps://drive.google.com/file/d/",
+                        "sub": [
+                            {
+                                "judul": "",
+                                "url": ""
+                            },
+                            {
+                                "judul": "",
+                                "url": ""
+                            },
+                            {
+                                "judul": "",
+                                "url": ""
+                            },
+                            {
+                                "judul": "",
+                                "url": ""
+                            }
+                        ]
                     }
                 ]
             },
@@ -30,11 +80,67 @@
                 "tautan": [
                     {
                         "judul": "Kurikulum dan Silabus",
-                        "url": ""
+                        "url": "https://drive.google.com/file/d/1LH1FkZw6FFaBIMEhG87c9kea2X_JEZKM/view?usp=sharing"
                     },
                     {
-                        "judul": "Bahan Tayang",
-                        "url": ""
+                        "judul": "Bahan Tayang Standar",
+                        "url": "",
+                        "sub": [
+                            {
+                                "judul": "1. Overview Kegiatan Ekspor",
+                                "url": "https://drive.google.com/drive/folders/148tVBobxeYF1Mg059JHPmwWs0L8z5n2R?usp=sharing"
+                            },
+                            {
+                                "judul": "2. Prosedur dan Dokumen Ekspor",
+                                "url": "https://drive.google.com/drive/folders/1S9Ss7oIMo2IuItLWsKf0YljNizDDr6Wh?usp=sharing"
+                            },
+                            {
+                                "judul": "3. Program NSW",
+                                "url": "https://drive.google.com/drive/folders/1yalwxrPk2CgKQp_qwvKaJ46nARlVtYcm?usp=sharing"
+                            },
+                            {
+                                "judul": "4. Tata Laksana Kepabeanan di Bidang Ekspor",
+                                "url": "https://drive.google.com/drive/folders/1d54bRMJEWJVsZyVQVD2yq4jr17xUWd6B?usp=sharing"
+                            },
+                            {
+                                "judul": "5. Prosedur Transportasi Ekspor",
+                                "url": "https://drive.google.com/drive/folders/1Q9Fwmk4K-gyawEPfBuVylgPYP502SHIX?usp=sharing"
+                            },
+                            {
+                                "judul": "6. Incoterms 2020",
+                                "url": "https://drive.google.com/drive/folders/1lk0G-t-VXg5bw7SQ0u21z08rQn9cYqTZ?usp=sharing"
+                            },
+                            {
+                                "judul": "7. Sistem Pembayaran Ekspor",
+                                "url": "https://drive.google.com/drive/folders/1FiPqABx1IDtuEk0grkumxu6iCdZImUoc?usp=sharing"
+                            },
+                            {
+                                "judul": "8. Latihan Pengisian Dokumen Ekspor",
+                                "url": "https://drive.google.com/drive/folders/1gOGEIQYM9gjJAsW76UQYpa1lpjbU4AHr?usp=sharing"
+                            }
+                        ]
+                    },
+                    {
+                        "judul": "Laporan Evaluasi",
+                        "url": "",
+                        "sub": [
+                            {
+                                "judul": "",
+                                "url": ""
+                            },
+                            {
+                                "judul": "",
+                                "url": ""
+                            },
+                            {
+                                "judul": "",
+                                "url": ""
+                            },
+                            {
+                                "judul": "",
+                                "url": ""
+                            }
+                        ]
                     }
                 ]
             },
@@ -43,12 +149,82 @@
                 "tautan": [
                     {
                         "judul": "Kurikulum dan Silabus",
-                        "url": ""
+                        "url": "https://drive.google.com/file/d/10YzkdQ9lCwRlpaWPMG_optBwnRADzyTw/view?usp=sharing"
                     },
                     {
-                        "judul": "Bahan Tayang",
-                        "url": ""
+                        "judul": "Bahan Tayang Standar",
+                        "url": "",
+                        "sub": [
+                            {
+                                "judul": "1. Overview Kegiatan Ekspor Impor",
+                                "url": "https://drive.google.com/drive/folders/1ljF6_JrDXS5LhAbsyoGEgCt46W6TqZH2?usp=sharing"
+                            },
+                            {
+                                "judul": "2. Kebijakan Ekspor",
+                                "url": "https://drive.google.com/drive/folders/1C1-XLxhvQj_LPuTte20Z-uOeHNWbDpZG?usp=sharing"
+                            },
+                            {
+                                "judul": "4. Kepabeanan Ekspor Impor",
+                                "url": "https://drive.google.com/drive/folders/1hNAqpjJo0A92gEGJySBDVsEHhfCR-0wG?usp=sharing"
+                            },
+                            {
+                                "judul": "4a. Program NSW",
+                                "url": "https://drive.google.com/drive/folders/1rDLA5NvZUbpZkMmEQdYlW86ByKVgtR3g?usp=sharing"
+                            },
+                            {
+                                "judul": "5. Manajemen Transportasi dan Penanganan Cargo",
+                                "url": "https://drive.google.com/drive/folders/1wiasK05aq01R3SEBYew_wN7EQAmenUJZ?usp=sharing"
+                            },
+                            {
+                                "judul": "6. Incoterms 2020",
+                                "url": "https://drive.google.com/drive/folders/19O8Btalei7neGO5VV1tmOzyR_hJT3Kp4?usp=sharing"
+                            },
+                            {
+                                "judul": "7. Kalkulasi Penetapan Harga Ekspor",
+                                "url": "https://drive.google.com/drive/folders/1yjGMdi0me3jl6rUvZGeAjkqd_RsJXcoN?usp=sharing"
+                            },
+                            {
+                                "judul": "8. Kalkulasi Biaya Impor",
+                                "url": "https://drive.google.com/drive/folders/1A1K6QLYAmuH6YrTT0b0vNiSaBQRqD6BD?usp=sharing"
+                            },
+                            {
+                                "judul": "9. Korespondensi Bisnis",
+                                "url": "https://drive.google.com/drive/folders/13fCDvpYkDad1J2z3yMWxPQBI9JRk5yUK?usp=sharing"
+                            },
+                            {
+                                "judul": "10. Pembayaran dan Pembiayaan Ekspor Impor",
+                                "url": "https://drive.google.com/drive/folders/11i5fRxRPF75pyMggUZqHeQkDRNooh-gY?usp=sharing"
+                            },
+                            {
+                                "judul": "11. Kontrak Dagang",
+                                "url": "https://drive.google.com/drive/folders/1xBqKxU9vzNddgY1tgN7U_pMJ6KPegQr5?usp=sharing"
+                            }
+                        ]
+                    },
+                    {
+                        "judul": "Laporan Evaluasi",
+                        "url": "",
+                        
+                        "sub": [
+                            {
+                                "judul": "",
+                                "url": ""
+                            },
+                            {
+                                "judul": "",
+                                "url": ""
+                            },
+                            {
+                                "judul": "",
+                                "url": ""
+                            },
+                            {
+                                "judul": "",
+                                "url": ""
+                            }
+                        ]
                     }
+
                 ]
             }
         ],
@@ -57,20 +233,40 @@
     },
     "peraturan": [
         {
-            "judul": "Peraturan UU XX 20XX",
-            "url": "https://jdih.kemendag.go.id/uuxx20xx"
+            "judul": "1. UU No. 17 Tahun 2006 tentang Kepabeanan",
+            "url": "https://drive.google.com/file/d/1Z6svEQj0XLdYyu1MJT_eutwYJtgEeuu-/view?usp=sharing"
         },
         {
-            "judul": "Peraturan 3",
-            "url": ""
+            "judul": "2. Permendag No. 111 Tahun 2018 tentang Ketentuan dan Tata Cara Pembuatan Deklarasi Asal Barang (Origin Declaration) untuk Barang Ekspor Asal Indonesia",
+            "url": "https://drive.google.com/file/d/1r2AcZJGVaZGS5yqlcI_tSaq7IhX-gRoe/view?usp=sharing"
         },
         {
-            "judul": "Peraturan 4",
-            "url": ""
+            "judul": "3. Permendag No. 32 Tahun 2022 tentang Ketentuan Asal Barang Indonesia dan Ketentuan Penerbitan Dokumen Keterangan Asal untuk Barang Asal Indonesia Berdasarkan ASEAN Trade in Goods Agreement (Persetujuan Perdagangan Barang Asean)",
+            "url": "https://drive.google.com/file/d/1eDC608mFcqiz3aj5hRJ2deBcYcqB9QwM/view?usp=sharing"
         },
         {
-            "judul": "Peraturan 5",
-            "url": ""
+            "judul": "4. Permenkeu No. 39/PMK.010/2022 jo. Permenkeu No. 71 Tahun 2023 tentang Penetapan Barang Ekspor yang Dikenakan Bea Keluar dan Tarif Bea Keluar",
+            "url": "https://drive.google.com/file/d/1dE0EODjSTUjsLl5h9XH0T0bv5SRhvNrk/view?usp=sharing"
+        },
+        {
+            "judul": "5. Permenkeu No. 96 Tahun 2023 jo. Permenkeu No. 4 Tahun 2025 tentang Ketentuan Kepabeanan, Cukai, dan Pajak atas Impor dan Ekspor Barang Kiriman",
+            "url": "https://drive.google.com/file/d/1dkXQfGjKEagLWZbcBKy2R_1whyz7rp1w/view?usp=sharing"
+        },
+        {
+            "judul": "6. Permendag No. 22 Tahun 2023 jo. Permendag No. 8 Tahun 2025 tentang Barang yang Dilarang untuk Diekspor",
+            "url": "https://drive.google.com/file/d/1HYD3ROFyy7OW5PYyeoOjbRlahCwPI_tr/view?usp=sharing"
+        },
+        {
+            "judul": "7. Permendag No. 23 Tahun 2023 jo. Permendag No. 9 Tahun 2025 tentang  Kebijakan dan Pengaturan Ekspor",
+            "url": "https://drive.google.com/file/d/1cwu41si962pOXKwpzzCyIcVLtMSuW7-a/view?usp=sharing"
+        },
+        {
+            "judul": "8. Perdirjen BC P-22/BC/2009 jo PER-20/BC/2016 tentang Pemberitahuan Pabean Impor",
+            "url": "https://drive.google.com/file/d/1xOqRy7qNA0Hd9DtLMunobWEU8n_VOPwd/view?usp=sharing"
+        },
+        {
+            "judul": "9. Perdirjen BC PER-22/BC/2024 tentang Pemberitahuan Pabean Ekspor",
+            "url": "https://drive.google.com/file/d/19OALZHZsyvBlYvFyzaRQoY1ld9wEGgcT/view?usp=sharing"
         }
     ],
     "perubahan": [
@@ -86,5 +282,4 @@
         "_ Agustus 2025: perspiciatis molestiae sint",
         "_ Agustus 2025: soluta hic repellendus odio alias!"
     ]
-
 }
