@@ -318,7 +318,20 @@
                         "url": "https://drive.google.com/file/d/1Yd8xR1PkSXaHtFt7wrMpHIBVo9UceInG/view?usp=sharing"
                     }
                 ]
-        }     
+        },
+        {
+                "nama": "LPEI - Pengenalan Dasar Perdagangan Internasional",
+                "tautan":[ 
+                    {
+                        "judul": "Kurikulum dan Silabus",
+                        "url": "https://drive.google.com/file/d/1wMaF05t7fhNIo5S6i4Pq74sMSx5Dctcu/view?usp=sharing"
+                    },
+                    {
+                        "judul": "",
+                        "url": ""
+                    }
+                ]
+        }      
         ]
     },
     "peraturan": [
