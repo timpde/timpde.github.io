@@ -145,6 +145,83 @@
                 ]
             },
             {
+                "nama": "Prosedur Impor",
+                "tautan": [
+                    {
+                        "judul": "Kurikulum dan Silabus",
+                        "url": ""
+                    },
+                    {
+                        "judul": "Bahan Tayang Standar",
+                        "url": "",
+                        "sub": [
+                            {
+                                "judul": "1. Overview Kegiatan Impor",
+                                "url": ""
+                            },
+                            {
+                                "judul": "2. Prosedur dan Dokumen Impor",
+                                "url": ""
+                            },
+                            {
+                                "judul": "3. Tata Laksana Kepabeanan di Bidang Impor",
+                                "url": ""
+                            },
+                            {
+                                "judul": "4. Fasilitas Kepabeanan Dalam Rangka Impor",
+                                "url": ""
+                            },
+                            {
+                                "judul": "5. Prosedur Transportasi dan Penanganan Cargo",
+                                "url": ""
+                            },
+                            {
+                                "judul": "6. Incoterms 2020",
+                                "url": ""
+                            },
+                            {
+                                "judul": "7. Marine Cargo Insurance",
+                                "url": ""
+                            },
+                            {
+                                "judul": "8. Kalkulasi Biaya Impor",
+                                "url": ""
+                            },
+                            {
+                                "judul": "9. Sistem Pembayaran Impor",
+                                "url": ""
+                            },
+                            {
+                                "judul": "10. Latihan Pengisian Dokumen Impor",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "judul": "Laporan Evaluasi",
+                        "url": "",
+                        "sub": [
+                            {
+                                "judul": "",
+                                "url": ""
+                            },
+                            {
+                                "judul": "",
+                                "url": ""
+                            },
+                            {
+                                "judul": "",
+                                "url": ""
+                            },
+                            {
+                                "judul": "",
+                                "url": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "nama": "Manajemen Ekspor Impor Plus Simulasi",
                 "tautan": [
                     {
@@ -229,6 +306,19 @@
             }
         ],
         "kontraktual": [
+         {
+                "nama": "Pertamina - Teknik Promosi Produk Ekspor",
+                "tautan":[ 
+                    {
+                        "judul": "Kurikulum dan Silabus",
+                        "url": "https://drive.google.com/file/d/1dpWBwRRnygdJN7aWlq7epenF5_Vsen8L/view?usp=sharing"
+                    },
+                    {
+                        "judul": "Laporan Evaluasi",
+                        "url": "https://drive.google.com/file/d/1Yd8xR1PkSXaHtFt7wrMpHIBVo9UceInG/view?usp=sharing"
+                    }
+                ]
+        }     
         ]
     },
     "peraturan": [
