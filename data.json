@@ -332,6 +332,86 @@
                     }
                 ]
         }      
+        ],
+        "ecp": [
+         {
+                "nama": "Webinar Seleksi ECP",
+                "tautan":[ 
+                    {
+                        "judul": "Kurikulum dan Silabus",
+                        "url": "https://1drv.ms/b/c/9f108fffb42e6775/EfBFwkpJinNJqps9ftwuCjEBzRVFmVOwijyvI3T7bjTXHw?e=mrm5Ny"
+                    },
+                    {
+                        "judul": "",
+                        "url": ""
+                    }
+                ]
+        },
+        {
+                "nama": "Workshop dan Verifikasi Perusahaan",
+                "tautan":[ 
+                    {
+                        "judul": "Kurikulum dan Silabus",
+                        "url": "https://1drv.ms/b/c/9f108fffb42e6775/EZTnSHA0DadDqcRRyU95yLMBqCbPhE9FhcgMKhhtFBmtWg?e=Pnog1X"
+                    },
+                    {
+                        "judul": "",
+                        "url": ""
+                    }
+                ]
+        },
+        {
+                "nama": "Training of Exporters",
+                "tautan":[ 
+                    {
+                        "judul": "Kurikulum dan Silabus",
+                        "url": "https://1drv.ms/b/c/9f108fffb42e6775/EY2GNvGbU_RBoGACdYIyKN0BqdjdJn2jAc4B-65nH4VCiA?e=wxBQCc"
+                    },
+                    {
+                        "judul": "",
+                        "url": ""
+                    }
+                ]
+        },
+        {
+                "nama": "Pendampingan Pasar/Market Development",
+                "tautan":[ 
+                    {
+                        "judul": "Kurikulum dan Silabus",
+                        "url": "https://1drv.ms/b/c/9f108fffb42e6775/EWdKILuZ3z5JnjpTdFQ9iPwBc6K9n2ue3-JbOF7h6wvHXA?e=fsBUQu"
+                    },
+                    {
+                        "judul": "",
+                        "url": ""
+                    }
+                ]
+        },
+        {
+                "nama": "Business Matching",
+                "tautan":[ 
+                    {
+                        "judul": "Kurikulum dan Silabus",
+                        "url": "https://1drv.ms/b/c/9f108fffb42e6775/EYiyT-hs9TVPnx6PQHwr2vYBf337owIgnZ3dpEY49Xay6g?e=ADkbmr"
+                    },
+                    {
+                        "judul": "",
+                        "url": ""
+                    }
+                ]
+        },
+        {
+                "nama": "Progress Monitoring",
+                "tautan":[ 
+                    {
+                        "judul": "Kurikulum dan Silabus",
+                        "url": "https://1drv.ms/b/c/9f108fffb42e6775/EaF-551D8ItLjikMl9JEgM8B_QCeE1oEx2vCdHcFUXWBeg?e=5Br2o8"
+                    },
+                    {
+                        "judul": "",
+                        "url": ""
+                    }
+                ]
+        }      
         ]
     },
     "peraturan": [

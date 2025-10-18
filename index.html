@@ -23,21 +23,35 @@
     <!-- Main Layout -->
     <div class="flex flex-col md:flex-row flex-1">
         <!-- Main Content -->
-        <main class="flex-1 p-6 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 md:pr-3 md:ml-12 h-min">
+        <main class="flex-1 p-6 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:mx-12 h-min">
 
             <!-- Calendar -->
-            <div class="bg-white rounded-2xl shadow p-4 h-min">
+            <div class="bg-white rounded-2xl shadow p-4 h-[420px]">
                 <h2 class="text-base font-semibold mb-2">Kalender</h2>
                 <hr class="mb-4">
                 <div id="calendar" class="h-80 overflow-y-auto"></div>
             </div>
 
             <!-- Scrollable List -->
-            <div class="bg-white rounded-2xl shadow p-4 h-min">
+            <div class="bg-white rounded-2xl shadow p-4 h-[420px]">
                 <h2 class="text-base font-semibold mb-2">Jadwal Pelatihan Reguler & Kontraktual</h2>
                 <hr class="mb-4">
                 <ul class="space-y-2 max-h-80 overflow-y-auto" id="jadwal">
                 </ul>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow p-4 h-[420px]">
+                <h2 class="text-base font-semibold mb-2">Peraturan Perundang-undangan terkait Ekspor dan Impor</h2>
+                <hr class="mb-4">
+                <div class="space-y-2 max-h-80 overflow-y-auto" id="peraturan">
+                </div>
+                
+                <!-- <div>
+                    <h2 class="font-semibold text-base mb-4">Perubahan Terbaru</h2>
+                    <div class="overflow-y-auto max-h-80" id="perubahan">
+
+                    </div>
+                </div> -->
             </div>
 
             <!-- Sliding Info Panel 1 -->
@@ -67,8 +81,6 @@
                 </div>
             </div>
 
-
-
             <!-- Sliding Info Panel 2 -->
             <div class="bg-white rounded-2xl shadow h-min">
                 <!-- Header row -->
@@ -96,26 +108,40 @@
                 </div>
             </div>
 
+
+            <!-- Sliding Info Panel 3 -->
+            <div class="bg-white rounded-2xl shadow h-min">
+                <!-- Header row -->
+                <div class="flex justify-between items-center p-4 border-b">
+                    <h2 class="text-base font-semibold">Export Coaching Program (ECP)</h2>
+                    <!-- <button onclick="togglePanel('panel1')" class="bg-blue-500 text-white px-3 py-1 rounded">
+
+                    </button> -->
+                    <button onclick="togglePanel('panel3');this.querySelector('svg').classList.toggle('rotate-180')"
+                        type="button" class="inline-flex items-center gap-2 px-3 py-2 shadow-sm hover:bg-gray-50">
+                        <!-- Chevron Down Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                            class="h-4 w-4 transition-transform">
+                            <path fill-rule="evenodd"
+                                d="M5.23 7.21a.75.75 0 0 1 1.06.02L10 10.208l3.71-2.98a.75.75 0 1 1 .94 1.16l-4.18 3.36a.75.75 0 0 1-.94 0l-4.18-3.36a.75.75 0 0 1 .02-1.06z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Collapsible content -->
+                <div id="panel3" class="max-h-0 overflow-y-auto transition-all duration-500">
+                    <div class="p-4" id="ecp">
+                    </div>
+                </div>
+            </div>
+
         </main>
 
         <!-- Right Sidebar -->
-        <aside class="w-full md:w-64 border-t md:border-0 p-6 flex flex-col gap-6 md:mr-12 md:pl-3">
-            <div class="bg-white rounded-2xl shadow p-4">
-                <div>
-                    <h2 class="font-semibold text-base mb-4">Peraturan Perundang-undangan terkait Ekspor</h2>
-                    <div class="overflow-y-auto max-h-80" id="peraturan">
-
-                    </div>
-                </div>
-                <!-- <hr class="my-2">
-                <div>
-                    <h2 class="font-semibold text-base mb-4">Perubahan Terbaru</h2>
-                    <div class="overflow-y-auto max-h-80" id="perubahan">
-
-                    </div>
-                </div> -->
-            </div>
-        </aside>
+        <!-- <aside class="w-full md:w-64 border-t md:border-0 p-6 flex flex-col gap-6 md:mr-12 md:pl-3">
+            
+        </aside> -->
     </div>
 
     <!-- Footer -->
@@ -274,6 +300,33 @@
                             const hr = document.createElement('hr');
                             hr.className = "my-2";
                             kontraktualDiv.appendChild(hr);
+                        });
+
+                        // ecp
+                        const ecpDiv = document.getElementById('ecp');
+                        // if empty, show "Belum tersedia."
+                        if (data.pelatihan.ecp.length === 0) {
+                            ecpDiv.innerHTML = '<p>Belum tersedia.</p>';
+                        }
+                        data.pelatihan.ecp.forEach(item => {
+                            const h3 = document.createElement('h3');
+                            h3.className = "font-bold mb-2";
+                            h3.textContent = item.nama;
+                            ecpDiv.appendChild(h3);
+
+                            item.tautan.forEach(linkItem => {
+                                const p = document.createElement('p');
+                                const a = document.createElement('a');
+                                a.href = linkItem.url;
+                                a.className = "text-blue-600 underline";
+                                a.textContent = linkItem.judul;
+                                p.appendChild(a);
+                                ecpDiv.appendChild(p);
+                            });
+
+                            const hr = document.createElement('hr');
+                            hr.className = "my-2";
+                            ecpDiv.appendChild(hr);
                         });
 
                         // peraturan
